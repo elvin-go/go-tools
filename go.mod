@@ -1,4 +1,4 @@
-module go-tools
+module github.com/elvin-go/go-tools
 
 go 1.25.1
 
