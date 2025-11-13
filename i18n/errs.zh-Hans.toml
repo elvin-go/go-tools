@@ -1,0 +1,176 @@
+[PersonCats]
+description = "测试"
+one = "{{.Name}} 有 {{.Count}} 猫."
+other = "{{.Name}} 有 {{.Count}} 猫."
+
+[ArgsError]
+description = "输入有误，请检查后重试"
+one = "{{.ArgsError}} 输入有误，请检查后重试 "
+other = "{{.ArgsError}} 输入有误，请检查后重试 "
+
+[NoPermissionError]
+description = "访问受限，请获取相关权限后重试"
+one = "访问受限，请获取相关权限后重试  "
+other = "访问受限，请获取相关权限后重试  "
+
+[ServerInternalError]
+description = "服务器开小差了，请稍后重试"
+one = "服务器开小差了，请稍后重试  "
+other = "服务器开小差了，请稍后重试  "
+
+[DatabaseError]
+description = "服务器开小差了，请稍后重试"
+one = "服务器开小差了，请稍后重试  "
+other = "服务器开小差了，请稍后重试  "
+
+[DataError]
+description = "服务器开小差了，请稍后重试"
+one = "服务器开小差了，请稍后重试  "
+other = "服务器开小差了，请稍后重试  "
+
+[CallbackError]
+description = "服务器开小差了，请稍后重试"
+one = "服务器开小差了，请稍后重试  "
+other = "服务器开小差了，请稍后重试  "
+
+[NetworkError]
+description = "网络连接失败，请稍后重试"
+one = "服务器开小差了，请稍后重试  "
+other = "服务器开小差了，请稍后重试  "
+
+[RecordNotFoundError]
+description = "未找到相关记录，请检查后重试"
+one = "未找到相关记录，请检查后重试  "
+other = "未找到相关记录，请检查后重试  "
+
+[UserIDNotFoundError]
+description = "未找到相关记录，请检查后重试"
+one = "未找到相关记录，请检查后重试  "
+other = "未找到相关记录，请检查后重试  "
+
+[GroupIDNotFoundError]
+description = "未找到相关记录，请检查后重试"
+one = "未找到相关记录，请检查后重试  "
+other = "未找到相关记录，请检查后重试  "
+
+[GroupIDExisted]
+description = "操作失败，数据已存在"
+one = "操作失败，数据已存在  "
+other = "操作失败，数据已存在  "
+
+[DuplicateKeyError]
+description = "操作失败，数据已存在"
+one = "操作失败，数据已存在  "
+other = "操作失败，数据已存在  "
+
+[TokenExpiredError]
+description = "登录信息已过期，请重新登录"
+one = "登录信息已过期，请重新登录  "
+other = "登录信息已过期，请重新登录  "
+
+[TokenInvalidError]
+description = "登录信息已过期，请重新登录"
+one = "登录信息已过期，请重新登录  "
+other = "登录信息已过期，请重新登录  "
+
+[TokenMalformedError]
+description = "登录信息已过期，请重新登录"
+one = "登录信息已过期，请重新登录  "
+other = "登录信息已过期，请重新登录"
+
+[TokenNotValidYetError]
+description = "登录信息已过期，请重新登录"
+one = "登录信息已过期，请重新登录  "
+other = "登录信息已过期，请重新登录  "
+
+[TokenUnknownError]
+description = "登录信息已过期，请重新登录"
+one = "登录信息已过期，请重新登录  "
+other = "登录信息已过期，请重新登录  "
+
+[TokenKickedError]
+description = "登录信息已过期，请重新登录"
+one = "登录信息已过期，请重新登录  "
+other = "登录信息已过期，请重新登录  "
+
+[TokenNotExistError]
+description = "登录信息已过期，请重新登录"
+one = "登录信息已过期，请重新登录  "
+other = "登录信息已过期，请重新登录  "
+
+[ChatTokenNotExist]
+description = "登录信息已过期，请重新登录"
+one = "登录信息已过期，请重新登录  "
+other = "登录信息已过期，请重新登录  "
+
+[PasswordErr]
+description = "密码输入错误，请检查后重试"
+one = "密码输入错误，请检查后重试  "
+other = "密码输入错误，请检查后重试 "
+
+[AccountNotFound]
+description = "帐户不存在，请确认输入信息"
+one = "帐户不存在，请确认输入信息  "
+other = "帐户不存在，请确认输入信息  "
+
+[PhoneAlreadyRegister]
+description = "此电话已绑定账号，请勿重复注册"
+one = "此电话已绑定账号，请勿重复注册  "
+other = "此电话已绑定账号，请勿重复注册  "
+
+[AccountAlreadyRegister]
+description = "账户已存在，请尝试登录"
+one = "账户已存在，请尝试登录  "
+other = "账户已存在，请尝试登录  "
+
+[RegisteredAlreadyError]
+one = "该用户已注册，请直接登录 "
+other = "该用户已注册，请直接登录 "
+
+[VerifyCodeSendFrequently]
+description = "验证码发送过于频繁，请稍后再试"
+one = "验证码发送过于频繁，请稍后再试  "
+other = "验证码发送过于频繁，请稍后再试  "
+
+[VerifyCodeNotMatch]
+description = "验证码不正确，请稍后再试"
+one = "验证码不正确，请稍后再试  "
+other = "验证码不正确，请稍后再试  "
+
+[VerifyCodeExpired]
+description = "验证码已过期，请稍后再试"
+one = "验证码已过期，请稍后再试  "
+other = "验证码已过期，请稍后再试  "
+
+[Forbidden]
+description = "该操作已被禁止，请联系管理员"
+one = "该操作已被禁止，请联系管理员 "
+other = "该操作已被禁止，请联系管理员 "
+
+[RefuseFriend]
+description = "该操作已被禁止，请联系管理员"
+one = "该操作已被禁止，请联系管理员 "
+other = "该操作已被禁止，请联系管理员 "
+
+[VersionError]
+description = "版本错误，请联系管理员"
+one = "版本错误，请联系管理员 "
+other = "版本错误，请联系管理员 "
+
+[DismissedAlreadyError]
+one = "群组已解散，无法进行操作 "
+other = "群组已解散，无法进行操作 "
+
+[MuteMemberAlreadyError]
+one = "禁言中，无法发送消息 "
+other = "禁言中，无法发送消息 "
+
+[AccountDisabledError]
+description = "该账户已被禁用，请联系管理员"
+one = "该账户已被禁用，请联系管理员 "
+other = "该账户已被禁用，请联系管理员 "
+
+[UserAddFriendLimitError]
+description = "超过单日添加好友上限"
+one = "超过单日添加好友上限 "
+other = "超过单日添加好友上限 "
